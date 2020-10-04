@@ -1,0 +1,17 @@
+dateModified: 1601812915
+email:
+  fromEmail: olaleyeobidiya@gmail.com
+  fromName: 'Studylab CraftCMS Blog'
+  transportType: craft\mail\transportadapters\Sendmail
+system:
+  edition: solo
+  live: true
+  name: 'Studylab CraftCMS Blog'
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

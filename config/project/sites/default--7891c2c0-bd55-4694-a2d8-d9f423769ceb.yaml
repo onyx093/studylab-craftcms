@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Studylab CraftCMS Blog'
+primary: true
+siteGroup: ed26b807-5d47-4a72-ab1a-de7f97b03750
+sortOrder: 1
