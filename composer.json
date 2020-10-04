@@ -2,7 +2,7 @@
   "require": {
     "craftcms/cms": "^3.5.10",
     "vlucas/phpdotenv": "^3.4.0",
-    "ext-imagick": "*"
+    "ext-gd": "*"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
