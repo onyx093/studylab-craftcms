@@ -1,0 +1,80 @@
+field: 4c2c01f5-3a83-43ab-87e8-eb0807ae3f0a
+fieldLayouts:
+  9c32505a-8f9f-466e-996c-58ad43dae78e:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 2e78b877-13cd-44bc-9f22-8bed291c91b7
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: fee5d12f-2107-4772-a677-35347cd50c3a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2e78b877-13cd-44bc-9f22-8bed291c91b7:
+    contentColumnType: text
+    fieldGroup: null
+    handle: boardName
+    instructions: ''
+    name: 'Board Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  fee5d12f-2107-4772-a677-35347cd50c3a:
+    contentColumnType: string
+    fieldGroup: null
+    handle: boardLogo
+    instructions: ''
+    name: 'Board Logo'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      singleUploadLocationSubpath: examBoard
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: examboard
+name: ExamBoard
+sortOrder: 1

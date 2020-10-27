@@ -1,0 +1,34 @@
+dateModified: 1603566117
+email:
+  fromEmail: fredpwol@gmail.com
+  fromName: studylab
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  dolphiq-iconpicker:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  redactor-font-awesome:
+    edition: standard
+    enabled: true
+    schemaVersion: '2.0'
+system:
+  edition: pro
+  live: true
+  name: studylab
+  schemaVersion: 3.5.13
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

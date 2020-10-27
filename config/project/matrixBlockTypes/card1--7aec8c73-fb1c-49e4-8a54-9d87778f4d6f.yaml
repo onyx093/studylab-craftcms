@@ -1,0 +1,68 @@
+field: d2b1e6ed-bf93-4229-819e-d9a107b24af5
+fieldLayouts:
+  20b4ad63-5bf3-4ad3-b5d7-8e55b4b4e6be:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a34d695f-eb5d-480f-9a3d-824970f96dc1
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e348e7d0-f4d3-4c70-9271-6a4bc0184c6d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  a34d695f-eb5d-480f-9a3d-824970f96dc1:
+    contentColumnType: string(400)
+    fieldGroup: null
+    handle: cardTitle
+    instructions: ''
+    name: 'Card Title'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: 100
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e348e7d0-f4d3-4c70-9271-6a4bc0184c6d:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardBody
+    instructions: ''
+    name: 'Card Body'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: card1
+name: Card1
+sortOrder: 1

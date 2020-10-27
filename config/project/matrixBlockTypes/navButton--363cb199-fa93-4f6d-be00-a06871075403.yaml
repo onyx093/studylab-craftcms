@@ -1,0 +1,162 @@
+field: 9cd9d1cc-f92e-49c8-ad3b-33e0788bd185
+fieldLayouts:
+  a4d36b9e-10ae-495d-84a6-9664c598ce63:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1af0a832-baac-4fc9-ac91-33bbb2f01ab8
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d29e9cae-1e6a-48c7-8b23-5834f354c7c7
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e3c6e6e8-02e1-4570-a1ab-0b8efaa6d592
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 214a93bc-62d9-4459-8fd4-a9ff7669167b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 18a4a907-c0d7-4cdc-a2dc-5ed8ad1a61fd
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  18a4a907-c0d7-4cdc-a2dc-5ed8ad1a61fd:
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: ''
+    name: Position
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  1af0a832-baac-4fc9-ac91-33bbb2f01ab8:
+    contentColumnType: text
+    fieldGroup: null
+    handle: class
+    instructions: ''
+    name: Class
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  214a93bc-62d9-4459-8fd4-a9ff7669167b:
+    contentColumnType: text
+    fieldGroup: null
+    handle: label
+    instructions: ''
+    name: Label
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d29e9cae-1e6a-48c7-8b23-5834f354c7c7:
+    contentColumnType: text
+    fieldGroup: null
+    handle: href
+    instructions: ''
+    name: Href
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e3c6e6e8-02e1-4570-a1ab-0b8efaa6d592:
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: isvisible
+    instructions: ''
+    name: isVisible
+    searchable: false
+    settings:
+      default: true
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: navButton
+name: 'Nav Button'
+sortOrder: 2

@@ -1,0 +1,147 @@
+field: 9cd9d1cc-f92e-49c8-ad3b-33e0788bd185
+fieldLayouts:
+  63ccd192-5dd3-45ec-8b71-ab1469469599:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f873e0ba-5f9e-4fa0-a3da-724870b3502e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c89ae3a8-00cc-47f6-86e1-a319f3078a19
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6c9f903d-005f-4679-8dab-3ef7202d0014
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 54a17016-a833-49da-8f8b-f74c60c54e4c
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4a5dbc58-3aa5-4add-af10-96a845c5239c
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4a5dbc58-3aa5-4add-af10-96a845c5239c:
+    contentColumnType: text
+    fieldGroup: null
+    handle: icon
+    instructions: ''
+    name: Icon
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  54a17016-a833-49da-8f8b-f74c60c54e4c:
+    contentColumnType: text
+    fieldGroup: null
+    handle: props
+    instructions: ''
+    name: props
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '1'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6c9f903d-005f-4679-8dab-3ef7202d0014:
+    contentColumnType: text
+    fieldGroup: null
+    handle: label
+    instructions: ''
+    name: Label
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  c89ae3a8-00cc-47f6-86e1-a319f3078a19:
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: isvisible
+    instructions: ''
+    name: isVisible
+    searchable: false
+    settings:
+      default: true
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  f873e0ba-5f9e-4fa0-a3da-724870b3502e:
+    contentColumnType: text
+    fieldGroup: null
+    handle: href
+    instructions: ''
+    name: Href
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: '#'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: button
+name: Button
+sortOrder: 1

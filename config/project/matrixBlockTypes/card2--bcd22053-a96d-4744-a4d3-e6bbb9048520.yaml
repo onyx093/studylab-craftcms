@@ -1,0 +1,138 @@
+field: d2b1e6ed-bf93-4229-819e-d9a107b24af5
+fieldLayouts:
+  d8363333-8ad4-4fa4-9851-5b18e28e3b2d:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 85059c11-2903-4e76-a61b-731449303b86
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 95c1d971-fc93-45c5-8654-f3015be36b4d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2c2b2eec-1fea-4ee2-b771-bd8f734e9ff9
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f0f44a53-874d-470e-b3a6-63d766546dc9
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2c2b2eec-1fea-4ee2-b771-bd8f734e9ff9:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardBody
+    instructions: ''
+    name: 'Card Body'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  85059c11-2903-4e76-a61b-731449303b86:
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardImage
+    instructions: ''
+    name: 'Card Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - image
+        - video
+      defaultUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  95c1d971-fc93-45c5-8654-f3015be36b4d:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardTitle
+    instructions: ''
+    name: 'Card Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f0f44a53-874d-470e-b3a6-63d766546dc9:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardId
+    instructions: ''
+    name: 'Card Id'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: card2
+name: Card2
+sortOrder: 2

@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: navbar
+name: Navbar
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9f4f7f76-b9f9-4925-ab3d-815fe43ff607:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'navbar/{slug}'
+type: channel

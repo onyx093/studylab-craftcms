@@ -1,0 +1,26 @@
+enableVersioning: true
+handle: landing
+name: landing
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  9f4f7f76-b9f9-4925-ab3d-815fe43ff607:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: __home__
+structure:
+  maxLevels: null
+  uid: 009122da-3e4a-4110-8a99-cb4f9778169f
+type: structure

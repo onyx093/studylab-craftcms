@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: ea2ea516-11c9-4a57-b685-118443572f27
+handle: brandname
+instructions: ''
+name: BrandName
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

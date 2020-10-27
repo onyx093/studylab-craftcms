@@ -1,0 +1,331 @@
+field: 0c035451-3329-4f68-9a67-3b3dd04afb50
+fieldLayouts:
+  57967f7e-dea0-48f3-b67c-8f5b7379f682:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 06602e76-35e7-4fd6-8618-3df877c85370
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5677a9e9-a863-4a7d-b76e-35c0342a9859
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 400f42a7-46a4-47d8-af51-af57ef191f44
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 32ad2dae-6505-499c-a3b7-2f4b11b5d6c0
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3614aa16-8b8f-47d2-9cf1-7c93f02b7c2b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4d514479-ec37-4d75-9adf-3f472221e1ce
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1102c56c-522b-4c3a-94de-473153753b30
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8de5af43-887f-4dc3-920e-64818356c225
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e7cb6fee-c943-4773-ac63-da61287015fa
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  06602e76-35e7-4fd6-8618-3df877c85370:
+    contentColumnType: string
+    fieldGroup: null
+    handle: featureImage
+    instructions: ''
+    name: 'Feature Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  1102c56c-522b-4c3a-94de-473153753b30:
+    contentColumnType: text
+    fieldGroup: null
+    handle: featureLinkProps
+    instructions: ''
+    name: 'Feature Link Props'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  32ad2dae-6505-499c-a3b7-2f4b11b5d6c0:
+    contentColumnType: text
+    fieldGroup: null
+    handle: featureBody
+    instructions: ''
+    name: 'Feature Body'
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  3614aa16-8b8f-47d2-9cf1-7c93f02b7c2b:
+    contentColumnType: text
+    fieldGroup: null
+    handle: featureLink
+    instructions: ''
+    name: 'Feature Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  400f42a7-46a4-47d8-af51-af57ef191f44:
+    contentColumnType: text
+    fieldGroup: null
+    handle: featureTitle
+    instructions: ''
+    name: 'Feature Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4d514479-ec37-4d75-9adf-3f472221e1ce:
+    contentColumnType: text
+    fieldGroup: null
+    handle: featureLinkLabel
+    instructions: ''
+    name: 'Feature Link Label'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5677a9e9-a863-4a7d-b76e-35c0342a9859:
+    contentColumnType: text
+    fieldGroup: null
+    handle: featureIcon
+    instructions: ''
+    name: 'Feature Icon'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8de5af43-887f-4dc3-920e-64818356c225:
+    contentColumnType: text
+    fieldGroup: null
+    handle: featureLinkIcon
+    instructions: ''
+    name: 'Feature Link Icon'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e7cb6fee-c943-4773-ac63-da61287015fa:
+    contentColumnType: text
+    fieldGroup: null
+    handle: features
+    instructions: ''
+    name: Features
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Title
+                -
+                  - handle
+                  - title
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Description
+                -
+                  - handle
+                  - description
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - multiline
+          -
+            - col3
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Icon
+                -
+                  - handle
+                  - icon
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      maxRows: ''
+      minRows: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: feature2
+name: Feature2
+sortOrder: 2

@@ -1,0 +1,9 @@
+format: null
+handle: resize
+height: 100
+interlace: none
+mode: fit
+name: resize
+position: center-center
+quality: 82
+width: 100

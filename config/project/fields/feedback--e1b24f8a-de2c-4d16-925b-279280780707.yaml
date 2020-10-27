@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 06ead109-2f5a-4892-9a8a-2844e25f207e
+handle: feedback
+instructions: ''
+name: Feedback
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_feedback}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

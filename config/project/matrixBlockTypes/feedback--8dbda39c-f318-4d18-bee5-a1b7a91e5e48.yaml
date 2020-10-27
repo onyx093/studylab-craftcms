@@ -1,0 +1,145 @@
+field: e1b24f8a-de2c-4d16-925b-279280780707
+fieldLayouts:
+  554feade-484f-4d07-9739-1410517927ad:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9d94b7c2-1b56-4b61-a255-a29f979cc23d
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8af03e73-69dc-4bbd-aaba-823201556beb
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 875bb38f-7d5f-4a9c-8e83-1ea866a778db
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6feef1eb-ae3a-4761-8a9c-cda19580b9f3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  6feef1eb-ae3a-4761-8a9c-cda19580b9f3:
+    contentColumnType: text
+    fieldGroup: null
+    handle: clientOccupation
+    instructions: ''
+    name: 'Client Occupation'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  875bb38f-7d5f-4a9c-8e83-1ea866a778db:
+    contentColumnType: text
+    fieldGroup: null
+    handle: comment
+    instructions: ''
+    name: Comment
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: ''
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  8af03e73-69dc-4bbd-aaba-823201556beb:
+    contentColumnType: text
+    fieldGroup: null
+    handle: clientName
+    instructions: ''
+    name: 'Client Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9d94b7c2-1b56-4b61-a255-a29f979cc23d:
+    contentColumnType: string
+    fieldGroup: null
+    handle: clientImage
+    instructions: ''
+    name: 'Client Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:b249db00-3b2b-48b2-ab0a-31583fe9948c'
+      singleUploadLocationSubpath: feedback
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: feedback
+name: Feedback
+sortOrder: 1

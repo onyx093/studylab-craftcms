@@ -1,0 +1,65 @@
+fieldLayouts:
+  e5348c0a-b2e7-4a03-bbe6-721fb53764f5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: b6c1fbdf-683f-484d-bc90-803a0b1e4da8
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bcc50fa0-759b-4510-aea6-1c98b8bcbf42
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d2b1e6ed-bf93-4229-819e-d9a107b24af5
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: landing
+hasTitleField: false
+name: landing
+section: 433439e3-4cc1-475d-a985-578f7a969c34
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

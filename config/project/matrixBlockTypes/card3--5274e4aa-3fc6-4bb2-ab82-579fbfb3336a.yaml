@@ -1,0 +1,124 @@
+field: d2b1e6ed-bf93-4229-819e-d9a107b24af5
+fieldLayouts:
+  cded75a1-ad25-4190-b03d-261edd12f89a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d2d06014-a78e-42b4-9d8d-8327a6bb7208
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ce5085a6-474f-43e1-acee-9a5e4d1c58ee
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bcb64936-bd27-4fab-b94f-dabd86bd7f42
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 1136627f-d87b-4e33-80f5-26852fd25788
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1136627f-d87b-4e33-80f5-26852fd25788:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardGroup
+    instructions: ''
+    name: 'Card Group'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  bcb64936-bd27-4fab-b94f-dabd86bd7f42:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardBody
+    instructions: ''
+    name: 'Card Body'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ce5085a6-474f-43e1-acee-9a5e4d1c58ee:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardTitle
+    instructions: ''
+    name: 'Card Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d2d06014-a78e-42b4-9d8d-8327a6bb7208:
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardIcon
+    instructions: ''
+    name: 'Card Icon'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: card3
+name: Card3
+sortOrder: 3
